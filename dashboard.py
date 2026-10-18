@@ -30,7 +30,7 @@ from alat.dialog import AdvancedToolsDialog
 from alat.mode import TabCustomMode
 
 
-SECRET_KEY = b"GantiDenganKunciRahasiaKamu123"
+SECRET_KEY = b"yasir123
 
 def get_challenge_response(challenge_code: str) -> str:
     h = hmac.new(SECRET_KEY, challenge_code.encode('utf-8'), hashlib.sha256)
