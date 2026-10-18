@@ -1,0 +1,85 @@
+{
+    "custom_modes": {
+        "Mode 0": {
+            "name": "0. (Off)",
+            "min": -255,
+            "max": 255,
+            "presets": [
+                -2550,
+                -125,
+                0,
+                125,
+                255
+            ]
+        },
+        "Mode 1": {
+            "name": "1. Open_Loop",
+            "min": -1360,
+            "max": 1360,
+            "presets": [
+                -1360,
+                -500,
+                0,
+                500,
+                1360
+            ]
+        },
+        "Mode 2": {
+            "name": "2. Close_Loop",
+            "min": -1360,
+            "max": 1360,
+            "presets": [
+                -1360,
+                -680,
+                0,
+                680,
+                1360
+            ]
+        },
+        "Mode 3": {
+            "name": "3. PID Kecepatan",
+            "min": -1360,
+            "max": 1360,
+            "presets": [
+                -1360,
+                -680,
+                0,
+                680,
+                1360
+            ]
+        },
+        "Mode 4": {
+            "name": "4. PID Posisi",
+            "min": -180,
+            "max": 180,
+            "presets": [
+                -180,
+                -90,
+                0,
+                90,
+                180
+            ]
+        },
+        "Mode 5": {
+            "name": "5. Potensio",
+            "min": -180,
+            "max": 180,
+            "presets": [
+                -180,
+                -90,
+                0,
+                90,
+                180
+            ]
+        }
+    },
+    "ppr": 196,
+    "kp": 0.45,
+    "ki": 0.12,
+    "kd": 0.002,
+    "last_role": "super",
+    "visibility_settings": {
+        "mode_potensio": false,
+        "mode_openloop": true
+    }
+}
